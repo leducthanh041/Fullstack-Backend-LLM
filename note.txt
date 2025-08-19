@@ -8,5 +8,5 @@ venv\scripts\activate.bat
 pip install -r requirements.txt
 
 --------------------------------------------------------------------------------------------------------
-###CREATING A .env FILE FOR STORING API KEYS SAFELY
+### CREATING A .env FILE FOR STORING API KEYS SAFELY
 -> for the window prompt, just using notepad to type 'OPENAI_API_KEY=sk-proj-' and saving it as .env FILE

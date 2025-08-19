@@ -1,0 +1,6 @@
+--------------------------------------------------------------------------------------------------------
+### 013. RUNNING JupyterLab FOR INTERACTIVE CODING PROJECTS
+- First active the llm env by command 'conda activate llms'
+- Using command 'jupyter lab' to open jupyter lab on local host
+- In this section, I will use ollama to be my llm because I don't have any money yet
+- using command 'ollama run llama3.2' to run llama3.2
