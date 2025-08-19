@@ -1,0 +1,12 @@
+########### create env
+conda env create -f environment.yml
+
+########### activate venv
+venv\scripts\activate.bat
+
+########### install requirement
+pip install -r requirements.txt
+
+--------------------------------------------------------------------------------------------------------
+###CREATING A .env FILE FOR STORING API KEYS SAFELY
+-> for the window prompt, just using notepad to type 'OPENAI_API_KEY=sk-proj-' and saving it as .env FILE
