@@ -1,0 +1,11 @@
+- step 1: import libs
+- step 2: const - define model
+- step 3: set up environment
+- step 4: give the question
+- step 5: define prompts
+- step 6: define messages (json)
+        messages = [
+        {"role": "system", "content": system_prompt},
+        {"role": "user", "content": user_prompt}
+    ]
+- step 7: get the defined model to answer.
