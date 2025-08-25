@@ -1,0 +1,15 @@
+#stream answer
+def stream_gpt(prompt):
+    messages = [
+        {"role": "system", "content": system_message},
+        {"role": "user", "content": prompt}
+      ]
+    stream = openai.chat.completions.create(
+        model='gpt-4o-mini',
+        messages=messages,
+        stream=True
+    )
+    result = ""
+    for chunk in stream:
+        result += chunk.choices[0].delta.content or ""
+        yield result
