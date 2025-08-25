@@ -1,0 +1,17 @@
+Structure of prompt messages to OpenAI:
+
+```
+[
+    {"role": "system", "content": "system message here"},
+    {"role": "user", "content": "first user prompt here"},
+    {"role": "assistant", "content": "the assistant's response"},
+    {"role": "user", "content": "the new user prompt"},
+]
+```
+
+We will write a function `chat(message, history)` where:  
+**message** is the prompt to use  
+**history** is the past conversation, in OpenAI format 
+
+#########################################################3
+Maybe adding some "prompts" for system when "some-word", being relevant, appears.
