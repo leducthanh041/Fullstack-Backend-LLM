@@ -1,0 +1,2 @@
+- step 1: first using Quantitative config to load the model into memory and use less memory
+    `BitsAndBytesConfig()`
