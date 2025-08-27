@@ -1,0 +1,2 @@
+as the results on videos, the speed of calculating a same math of claud model is faster than gpt 4o
+I don't know how the speed of gpt 5o comparing to claud because I don't have money to buy claud api key
