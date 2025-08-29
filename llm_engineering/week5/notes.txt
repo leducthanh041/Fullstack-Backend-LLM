@@ -12,3 +12,7 @@ cleaning memories by:
 
         # putting it together: set up the conversation chain with the GPT 4o-mini LLM, the vector store and memory
         conversation_chain = ConversationalRetrievalChain.from_llm(llm=llm, retriever=retriever, memory=memory)
+
+# Day 5: Debugging RAG
+    # the retriever is an abstraction over the VectorStore that will be used during RAG; k is how many chunks to use
+    retriever = vectorstore.as_retriever(search_kwargs={"k": 25})
