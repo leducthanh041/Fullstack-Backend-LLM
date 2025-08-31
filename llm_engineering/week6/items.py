@@ -50,6 +50,7 @@ class Item:
         stuff = re.sub(r'[:\[\]"{}【】\s]+', ' ', stuff).strip()
         stuff = stuff.replace(" ,", ",").replace(",,,",",").replace(",,",",")
         words = stuff.split(' ')
+        # important
         select = [word for word in words if len(word)<7 or not any(char.isdigit() for char in word)]
         return " ".join(select)
     
