@@ -1,0 +1,9 @@
+# Create a Balanced Dataset for LLM Training Curation Techniques
+
+- Step 1: Create a dict with a key of each price from $1 to $999 
+and in the value, put a list of items with that price (to nearest round number).
+
+- Step 2: Create a dataset called "sample" which tries to more evenly take from the range of prices
+And gives more weight to items from categories other than Automotive
+Set random seed for reproducibility.
+- Step 3: Do some finals checks.
