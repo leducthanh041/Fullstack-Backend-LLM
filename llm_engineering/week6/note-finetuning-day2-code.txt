@@ -6,4 +6,5 @@ and in the value, put a list of items with that price (to nearest round number).
 - Step 2: Create a dataset called "sample" which tries to more evenly take from the range of prices
 And gives more weight to items from categories other than Automotive
 Set random seed for reproducibility.
+
 - Step 3: Do some finals checks.
