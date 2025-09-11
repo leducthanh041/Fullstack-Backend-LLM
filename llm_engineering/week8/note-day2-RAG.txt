@@ -1,0 +1,7 @@
+Today we build a more complex solution for estimating prices of goods.
+
+1. This notebook: create a RAG database with our 400,000 training data
+2. Day 2.1 notebook: visualize in 2D
+3. Day 2.2 notebook: visualize in 3D
+4. Day 2.3 notebook: build and test a RAG pipeline with GPT-4o-mini
+5. Day 2.4 notebook: (a) bring back our Random Forest pricer (b) Create a Ensemble pricer that allows contributions from all the pricers
